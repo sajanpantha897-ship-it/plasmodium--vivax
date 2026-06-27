@@ -1,39 +1,91 @@
-/* General page styling */
+/* Background */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333333;
     margin: 0;
-    padding: 20px;
-    line-height: 1.8;
+    padding: 30px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background: linear-gradient(to right, #d7f9e9, #f5fff8);
+    color: #222;
 }
 
-/* Main heading */
+/* Main content box */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Main title */
 h1 {
-    color: #006400;
     text-align: center;
-    font-size: 36px;
+    color: #006400;
+    font-size: 42px;
+    text-shadow: 2px 2px 6px #90ee90;
+    border-bottom: 4px solid #00a86b;
+    padding-bottom: 12px;
 }
 
-/* Subheadings */
+/* Section headings */
 h2 {
-    color: #1e3a8a;
-    border-bottom: 2px solid #1e3a8a;
-    padding-bottom: 5px;
+    color: white;
+    background: linear-gradient(to right,#006400,#00a86b);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 28px;
 }
 
 /* Paragraphs */
 p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.9;
     text-align: justify;
+    color: #333;
 }
 
-/* Content box */
-.container {
-    max-width: 900px;
-    margin: auto;
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+/* Bold text */
+strong {
+    color: #0b5d1e;
+}
+
+/* Navigation bar */
+nav {
+    background: #004d40;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 15px;
+    border: 5px solid #008000;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
 }
